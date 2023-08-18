@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace LucaDegasperi\OAuth2Server\Middleware;
+namespace Tikamsah\OAuth2Server\Middleware;
 
 use Closure;
 use Illuminate\Http\JsonResponse;
