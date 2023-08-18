@@ -11,7 +11,7 @@
 
 use Behat\Behat\Exception\PendingException;
 use League\OAuth2\Server\Grant\ClientCredentialsGrant;
-use LucaDegasperi\OAuth2Server\Tests\Database\Seeders\OAuth2DatabaseSeeder;
+use Tikamsah\OAuth2Server\Tests\Database\Seeders\OAuth2DatabaseSeeder;
 use Orchestra\Testbench\BehatFeatureContext;
 use PHPUnit_Framework_Assert as PHPUnit;
 
@@ -107,7 +107,7 @@ class FeatureContext extends BehatFeatureContext
     protected function getPackageAliases()
     {
         return [
-            'Authorizer' => 'LucaDegasperi\OAuth2Server\Facades\AuthorizerFacade',
+            'Authorizer' => 'Tikamsah\OAuth2Server\Facades\AuthorizerFacade',
         ];
     }
 
@@ -119,8 +119,8 @@ class FeatureContext extends BehatFeatureContext
     protected function getPackageProviders()
     {
         return [
-            'LucaDegasperi\OAuth2Server\Storage\FluentStorageServiceProvider',
-            'LucaDegasperi\OAuth2Server\OAuth2ServerServiceProvider',
+            'Tikamsah\OAuth2Server\Storage\FluentStorageServiceProvider',
+            'Tikamsah\OAuth2Server\OAuth2ServerServiceProvider',
         ];
     }
 
