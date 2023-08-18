@@ -10,7 +10,7 @@
  */
 
 use Illuminate\Routing\Controller;
-use LucaDegasperi\OAuth2Server\Authorizer;
+use Tikamsah\OAuth2Server\Authorizer;
 
 class OAuthController extends Controller
 {
