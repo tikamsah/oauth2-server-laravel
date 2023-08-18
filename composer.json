@@ -1,5 +1,5 @@
 {
-    "name": "lucadegasperi/oauth2-server-laravel",
+    "name": "tikamsah/oauth2-server-laravel",
     "description": "An OAuth 2.0 bridge for Laravel and Lumen",
     "keywords": ["oauth2", "oauth", "server", "api", "laravel", "lumen"],
     "license": "MIT",
@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=8.1.*",
         "illuminate/database": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
         "illuminate/console": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
         "illuminate/contracts": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "LucaDegasperi\\OAuth2Server\\": "src"
+            "Tikamsah\\OAuth2Server\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LucaDegasperi\\OAuth2Server\\Tests\\": "tests"
+            "Tikamsah\\OAuth2Server\\Tests\\": "tests"
         },
         "classmap": [
             "database"
