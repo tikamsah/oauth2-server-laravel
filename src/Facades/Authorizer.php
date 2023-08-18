@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace LucaDegasperi\OAuth2Server\Facades;
+namespace Tikamsah\OAuth2Server\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * This is the authorizer facade class.
  *
- * @see \LucaDegasperi\OAuth2Server\Authorizer
+ * @see \Tikamsah\OAuth2Server\Authorizer
  *
  * @author Luca Degasperi <packages@lucadegasperi.com>
  */
